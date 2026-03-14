@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "next-intl-add-language": {
+      "source": "github/awesome-copilot",
+      "sourceType": "github",
+      "computedHash": "6b30075c5f43a4498782729f129c513ca28db37d93032a81a07e444d4db575c5"
+    }
+  }
+}

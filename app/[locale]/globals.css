@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F4FAFD;
+  --foreground: #1B3A6B;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-nunito), 'Nunito', sans-serif;
+}
+
+.card-shadow {
+  box-shadow: 0 10px 25px -5px rgba(46, 156, 202, 0.1),
+              0 8px 10px -6px rgba(46, 156, 202, 0.1);
+}
+
+.pill-button {
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+.pill-button:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
