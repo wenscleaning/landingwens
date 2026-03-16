@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Droplets, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/src/i18n/navigation";
 import LanguageToggle from "@/src/components/language-toggle";
@@ -12,9 +13,10 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const navLinks = [
-    { label: t("home"), href: "#home" },
-    { label: t("about"), href: "#about" },
-    { label: t("service"), href: "#service" },
+    { label: t("home"), href: "#" },
+    { label: t("service"), href: "#services" },
+    { label: t("reviews"), href: "#reviews" },
+    { label: t("faq"), href: "#faq" },
     { label: t("contact"), href: "#contact" },
   ];
 
@@ -26,19 +28,19 @@ export default function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 z-50 bg-white border-b border-sky-100/50 transition-shadow duration-300 ${
+      className={`sticky top-0 z-50 bg-white border-b-2 border-[#1B396A]/20 transition-shadow duration-300 ${
         scrolled ? "shadow-md" : ""
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <Droplets className="w-7 h-7 text-[#2E9CCA]" />
+          <Image src="/images/services/logo.png" alt="WEN'S Logo" width={36} height={36} />
           <div className="flex items-baseline gap-1">
-            <span className="text-2xl font-extrabold text-[#1B3A6B] font-heading">
+            <span className="text-2xl font-extrabold text-[#1B396A]">
               WEN&apos;S
             </span>
-            <span className="text-lg font-bold text-[#2E9CCA] font-heading">
+            <span className="text-lg font-bold text-[#C9A84C]">
               CLEANING
             </span>
           </div>
@@ -48,9 +50,15 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <a
-              key={link.href}
+              key={link.label}
               href={link.href}
-              className="text-[#1B3A6B]/80 font-semibold hover:text-[#2E9CCA] transition-colors"
+              onClick={(e) => {
+                if (link.href === "#") {
+                  e.preventDefault();
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }
+              }}
+              className="text-[#1B396A] font-semibold hover:text-[#C9A84C] transition-colors duration-200"
             >
               {link.label}
             </a>
@@ -64,7 +72,7 @@ export default function Navbar() {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden text-[#1B3A6B]"
+          className="md:hidden text-[#1B396A]"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label={t("toggleMenu")}
         >
@@ -74,13 +82,19 @@ export default function Navbar() {
 
       {/* Mobile drawer */}
       {mobileOpen && (
-        <div className="md:hidden bg-white border-t border-sky-100/50 px-6 py-4 space-y-3">
+        <div className="md:hidden bg-white border-t border-[#1B396A]/10 px-6 py-4 space-y-3">
           {navLinks.map((link) => (
             <a
-              key={link.href}
+              key={link.label}
               href={link.href}
-              className="block text-[#1B3A6B]/80 font-semibold hover:text-[#2E9CCA] transition-colors"
-              onClick={() => setMobileOpen(false)}
+              className="block text-[#1B396A] font-semibold hover:text-[#C9A84C] transition-colors duration-200"
+              onClick={(e) => {
+                setMobileOpen(false);
+                if (link.href === "#") {
+                  e.preventDefault();
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }
+              }}
             >
               {link.label}
             </a>

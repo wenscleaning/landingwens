@@ -8,8 +8,7 @@ import ServicesSection from "@/components/sections/ServicesSection";
 import TrustedBySection from "@/components/sections/TrustedBySection";
 import PricingSection from "@/components/sections/PricingSection";
 import WhyChooseSection from "@/components/sections/WhyChooseSection";
-import FeaturesSection from "@/components/sections/FeaturesSection";
-import BlogSection from "@/components/sections/BlogSection";
+import FounderSection from "@/components/sections/FounderSection";
 import CTASection from "@/components/sections/CTASection";
 import FAQSection from "@/components/sections/FAQSection";
 import FloatingActionButton from "@/components/ui/FloatingActionButton";
@@ -27,8 +26,7 @@ export default function Home() {
         <TrustedBySection />
         <PricingSection />
         <WhyChooseSection />
-        <FeaturesSection />
-        <BlogSection />
+        <FounderSection />
         <FAQSection />
         <CTASection />
       </main>

@@ -52,7 +52,7 @@ export default function FloatingActionButton({
     {
       key: "chatbot",
       label: "AI Assistant",
-      bg: "bg-[#2E9CCA]",
+      bg: "bg-[#1B396A]",
       icon: <Bot className="w-6 h-6 text-white" />,
       onClick: () => {
         setIsOpen(false);
@@ -105,7 +105,7 @@ export default function FloatingActionButton({
               >
                 {/* Label pill */}
                 <motion.span
-                  className="rounded-full bg-white px-3 py-1.5 text-sm font-semibold text-[#1B3A6B] shadow-lg whitespace-nowrap"
+                  className="rounded-full bg-white px-3 py-1.5 text-sm font-semibold text-[#1B396A] shadow-lg whitespace-nowrap"
                   initial={{ opacity: 0, x: 10 }}
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: 10 }}
@@ -130,7 +130,7 @@ export default function FloatingActionButton({
         <button
           onClick={handleToggle}
           className={`relative w-16 h-16 rounded-full flex items-center justify-center shadow-xl transition-colors duration-300 cursor-pointer ${
-            isOpen ? "bg-[#1B3A6B]" : "bg-[#2DC4A4]"
+            isOpen ? "bg-[#0F2347]" : "bg-[#C9A84C]"
           }`}
           aria-label={isOpen ? "Close menu" : "Open contact menu"}
         >
@@ -158,9 +158,9 @@ export default function FloatingActionButton({
             )}
           </AnimatePresence>
 
-          {/* Notification dot */}
+          {/* Notification dot — gold instead of red */}
           {showNotification && !isOpen && (
-            <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full animate-pulse ring-2 ring-white" />
+            <span className="absolute -top-1 -right-1 w-4 h-4 bg-[#C9A84C]/80 border-2 border-white rounded-full animate-pulse" />
           )}
         </button>
       </div>

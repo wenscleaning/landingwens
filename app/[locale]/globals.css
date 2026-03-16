@@ -3,28 +3,40 @@
 @tailwind utilities;
 
 :root {
-  --background: #F4FAFD;
-  --foreground: #1B3A6B;
+  --background: #F6F7F8;
+  --foreground: #1B396A;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  font-family: 'Nunito Sans', sans-serif;
+  color: #1B396A;
+  background-color: #F6F7F8;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Nunito', sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4 {
-  font-family: var(--font-nunito), 'Nunito', sans-serif;
+/* Gold divider line under section h2 */
+.section-divider {
+  width: 6rem;
+  height: 4px;
+  background-color: #C9A84C;
+  margin: 0 auto 1.5rem;
 }
 
+/* Card shadow with navy tone */
 .card-shadow {
-  box-shadow: 0 10px 25px -5px rgba(46, 156, 202, 0.1),
-              0 8px 10px -6px rgba(46, 156, 202, 0.1);
+  box-shadow: 0 10px 25px -5px rgba(27,57,106,0.10),
+              0 8px 10px -6px rgba(27,57,106,0.08);
 }
 
+/* Pill button with hover */
 .pill-button {
   border-radius: 9999px;
   transition: all 0.3s ease;
@@ -32,12 +44,43 @@ h1, h2, h3, h4 {
 
 .pill-button:hover {
   transform: translateY(-2px);
-  filter: brightness(1.05);
+  filter: brightness(1.06);
+}
+
+/* Service card border hover gold */
+.service-card {
+  background-color: rgba(27,57,106,0.05);
+  border: 2px solid rgba(27,57,106,0.20);
+  border-radius: 0.75rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  border-color: #C9A84C;
+  box-shadow: 0 0 0 1px rgba(201,168,76,0.13);
+}
+
+/* Review card glow */
+.review-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(201,168,76,0.30);
+  border-radius: 0.75rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.review-card:hover {
+  border-color: rgba(201,168,76,0.60);
+  box-shadow: 0 0 20px rgba(201,168,76,0.12);
 }
 
 @keyframes fadeDown {
   from { opacity: 0; transform: translateY(-6px); }
   to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-6px); }
 }
 
 @layer utilities {
