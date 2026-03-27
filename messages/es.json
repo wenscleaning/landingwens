@@ -478,6 +478,8 @@
     "labelEmail": "Email",
     "labelPhone": "Teléfono",
     "labelMessage": "Detalles",
+    "labelCv": "Resumen Curricular",
+    "placeholderCv": "Escribe aquí tu resumen curricular…",
     "submitBtn": "Enviar por WhatsApp",
     "whatsappNote": "Serás redirigido a WhatsApp para confirmar tu solicitud",
     "whatsappTemplate": "Hola Wen's Cleaning Services 👋\nMe gustaría solicitar un presupuesto gratuito.\n\nMis datos:",

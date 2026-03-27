@@ -478,6 +478,8 @@
     "labelEmail": "Email",
     "labelPhone": "Phone",
     "labelMessage": "Details",
+    "labelCv": "Curriculum Vitae",
+    "placeholderCv": "Write your CV summary here…",
     "submitBtn": "Send via WhatsApp",
     "whatsappNote": "You will be redirected to WhatsApp to confirm your request",
     "whatsappTemplate": "Hello Wen's Cleaning Services 👋\nI would like to request a free quote.\n\nMy details:",

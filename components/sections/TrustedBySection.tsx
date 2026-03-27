@@ -49,6 +49,12 @@ export default function TrustedBySection() {
       .toUpperCase()
       .slice(0, 2);
 
+  const formatAuthorName = (name: string) => {
+    const parts = name.trim().split(/\s+/);
+    if (parts.length === 1) return parts[0];
+    return `${parts[0]} ${parts[parts.length - 1][0]}.`;
+  };
+
   return (
     <section id="reviews" className="py-24 bg-[#0F2347] text-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -156,7 +162,7 @@ export default function TrustedBySection() {
                     </div>
                     <div>
                       <p className="text-white font-bold text-sm">
-                        {review.author}
+                        {formatAuthorName(review.author)}
                       </p>
                       <p className="text-[#C9A84C] text-xs uppercase tracking-widest">
                         {review.role}
