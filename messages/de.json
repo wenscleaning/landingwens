@@ -478,6 +478,8 @@
     "labelEmail": "E-Mail",
     "labelPhone": "Telefon",
     "labelMessage": "Details",
+    "labelCv": "Lebenslauf",
+    "placeholderCv": "Schreiben Sie hier Ihren Lebenslauf…",
     "submitBtn": "Per WhatsApp senden",
     "whatsappNote": "Sie werden zu WhatsApp weitergeleitet, um Ihre Anfrage zu bestätigen",
     "whatsappTemplate": "Hallo Wen's Cleaning Services 👋\nIch möchte ein kostenloses Angebot anfragen.\n\nMeine Kontaktdaten:",

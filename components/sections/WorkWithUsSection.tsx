@@ -8,10 +8,9 @@ import {
   User,
   Mail,
   Phone,
-  MessageSquare,
   Send,
   CheckCircle2,
-  // CheckCircle,
+  FileText,
 } from "lucide-react";
 
 const WHATSAPP_NUMBER = "41778102004";
@@ -28,7 +27,7 @@ export default function WorkWithUsSection() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [message, setMessage] = useState("");
+  const [cvSummary, setCvSummary] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -41,7 +40,7 @@ export default function WorkWithUsSection() {
       `*${t("labelName")}:* ${name}`,
       `*${t("labelPhone")}:* ${phone}`,
       email ? `*${t("labelEmail")}:* ${email}` : "",
-      message ? `*${t("labelMessage")}:* ${message}` : "",
+      cvSummary ? `*${t("labelCv")}:*\n${cvSummary}` : "",
     ]
       .filter(Boolean)
       .join("\n");
@@ -172,15 +171,15 @@ export default function WorkWithUsSection() {
                         />
                       </motion.div>
 
-                      {/* Message */}
-                      <motion.div variants={fadeInUp} className="relative flex-1">
-                        <MessageSquare className="absolute left-3 top-3.5 w-5 h-5 text-slate-400" />
+                      {/* CV Summary */}
+                      <motion.div variants={fadeInUp} className="relative">
+                        <FileText className="absolute left-3 top-3.5 w-5 h-5 text-slate-400" />
                         <textarea
-                          value={message}
-                          onChange={(e) => setMessage(e.target.value)}
-                          placeholder={t("placeholderMessage")}
-                          rows={3}
-                          className="w-full h-full min-h-[90px] pl-11 pr-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-[#0F2347] placeholder:text-slate-400 focus:outline-none focus:border-[#C9A84C] focus:ring-2 focus:ring-[#C9A84C]/20 transition-all resize-none"
+                          value={cvSummary}
+                          onChange={(e) => setCvSummary(e.target.value)}
+                          placeholder={t("placeholderCv")}
+                          rows={4}
+                          className="w-full pl-11 pr-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-[#0F2347] placeholder:text-slate-400 focus:outline-none focus:border-[#C9A84C] focus:ring-2 focus:ring-[#C9A84C]/20 transition-all resize-none"
                         />
                       </motion.div>
 
@@ -223,20 +222,6 @@ export default function WorkWithUsSection() {
                 fill
                 className="object-cover"
               />
-              {/* Subtle gradient at bottom for the badge */}
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0F2347]/70 via-transparent to-transparent" />
-
-              {/* Bottom badge */}
-              <div className="absolute bottom-6 left-6 right-6">
-                <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl px-5 py-4">
-                  <p className="text-[#C9A84C] font-bold text-xs uppercase tracking-widest mb-1">
-                    {t("sectionTag")}
-                  </p>
-                  <p className="text-white font-heading font-extrabold text-base leading-snug">
-                    {t("badgeQuote")}
-                  </p>
-                </div>
-              </div>
             </div>
           </motion.div>
 
