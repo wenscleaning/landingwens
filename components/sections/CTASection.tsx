@@ -9,7 +9,7 @@ export default function CTASection() {
   const { openBooking } = useBooking();
 
   return (
-    <section className="bg-[#0F2347] py-20">
+    <section className="bg-[#1B396A] py-20">
       <div className="max-w-2xl mx-auto px-4 text-center">
         <motion.h2
           className="text-[#C9A84C] font-heading text-4xl md:text-5xl font-extrabold italic mb-6"

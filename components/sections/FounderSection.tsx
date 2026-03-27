@@ -71,25 +71,6 @@ export default function FounderSection() {
                 </p>
               </div>
 
-              {/* Award photo */}
-              <div className="relative rounded-xl overflow-hidden max-w-xs w-full">
-                <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-[#C9A84C]/50 rounded-tl-xl z-10" />
-                <div className="absolute bottom-0 right-0 w-8 h-8 border-b-2 border-r-2 border-[#C9A84C]/50 rounded-br-xl z-10" />
-                <Image
-                  src="/images/services/creator-2.jpg"
-                  alt={t("awardTitle")}
-                  width={400}
-                  height={250}
-                  className="object-cover w-full rounded-xl"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0F2347]/80 via-transparent to-transparent rounded-xl" />
-                <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <div className="flex items-center gap-2">
-                    <Award className="w-4 h-4 text-[#C9A84C] flex-shrink-0" />
-                    <p className="text-white text-xs font-bold">{t("awardTitle")}</p>
-                  </div>
-                </div>
-              </div>
             </motion.div>
 
             {/* RIGHT — Bio + Award accordion */}
@@ -156,14 +137,13 @@ export default function FounderSection() {
                           {t("awardText")}
                         </p>
 
-                        {/* Award photo in accordion */}
-                        <div className="relative rounded-lg overflow-hidden max-h-48">
+                        {/* Award photo */}
+                        <div className="relative rounded-lg overflow-hidden h-56">
                           <Image
                             src="/images/services/creator-2.jpg"
                             alt={t("awardTitle")}
-                            width={600}
-                            height={200}
-                            className="object-cover w-full rounded-lg"
+                            fill
+                            className="object-cover object-center"
                           />
                         </div>
 

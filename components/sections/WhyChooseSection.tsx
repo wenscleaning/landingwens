@@ -8,13 +8,14 @@ import Image from "next/image";
 const features = [
   { titleKey: "feature1Title", descKey: "feature1Desc" },
   { titleKey: "feature2Title", descKey: "feature2Desc" },
+  { titleKey: "feature3Title", descKey: "feature3Desc" },
 ] as const;
 
 export default function WhyChooseSection() {
   const t = useTranslations("WhyChoose");
 
   return (
-    <section className="py-24 bg-[#0F2347]">
+    <section className="py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center">
           {/* Left column */}
@@ -25,7 +26,7 @@ export default function WhyChooseSection() {
             transition={{ duration: 0.6 }}
             className="lg:w-1/2"
           >
-            <h2 className="text-white font-heading text-3xl md:text-4xl font-extrabold leading-tight mb-3">
+            <h2 className="text-[#0F2347] font-heading text-3xl md:text-4xl font-extrabold leading-tight mb-3">
               {t("title")}
             </h2>
 
@@ -46,10 +47,10 @@ export default function WhyChooseSection() {
                     <Check className="text-[#C9A84C]" size={20} />
                   </div>
                   <div>
-                    <h3 className="text-white font-extrabold text-lg mb-1">
+                    <h3 className="text-[#0F2347] font-extrabold text-lg mb-1">
                       {t(feature.titleKey)}
                     </h3>
-                    <p className="text-slate-400 text-sm leading-relaxed">
+                    <p className="text-slate-500 text-sm leading-relaxed">
                       {t(feature.descKey)}
                     </p>
                   </div>
@@ -73,7 +74,7 @@ export default function WhyChooseSection() {
               {/* Main image */}
               <div className="relative rounded-xl aspect-[4/3] overflow-hidden">
                 <Image
-                  src="/images/services/why-choose.jpg"
+                  src="/images/services/image18.jpg"
                   alt="Professional cleaning results"
                   fill
                   className="object-cover"
@@ -91,7 +92,7 @@ export default function WhyChooseSection() {
                 <Star className="text-[#C9A84C] fill-[#C9A84C] w-6 h-6 flex-shrink-0" />
                 <div>
                   <p className="text-white font-extrabold text-lg leading-none">4.9/5</p>
-                  <p className="text-slate-400 text-xs mt-0.5">+800 avis</p>
+                  {/* <p className="text-slate-400 text-xs mt-0.5">+800 avis</p> */}
                 </div>
               </motion.div>
 

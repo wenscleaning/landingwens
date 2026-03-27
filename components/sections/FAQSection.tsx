@@ -16,7 +16,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section id="faq" className="bg-[#F6F7F8] py-24">
+    <section id="faq" className="bg-[#0F2347] py-24">
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -25,17 +25,17 @@ export default function FAQSection() {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="text-center mb-12"
         >
-          <h2 className="text-[#1B396A] font-heading text-3xl md:text-4xl font-extrabold">
+          <h2 className="text-white font-heading text-3xl md:text-4xl font-extrabold">
             {t("title")}
           </h2>
           {/* Gold divider */}
           <div className="w-16 h-1 bg-[#C9A84C] mx-auto mt-4 mb-2" />
-          <p className="mt-2 text-[#1B396A]/60 text-lg font-sans">
+          <p className="mt-2 text-slate-300 text-lg font-sans">
             {t("subtitle")}
           </p>
         </motion.div>
 
-        <div className="divide-y divide-[#1B396A]/10">
+        <div className="divide-y divide-white/10">
           {faqKeys.map((key) => {
             const isOpen = openIndex === key;
 
@@ -47,7 +47,7 @@ export default function FAQSection() {
                   aria-expanded={isOpen}
                   className="flex justify-between items-center w-full text-left group"
                 >
-                  <span className="font-bold text-[#1B396A] text-lg font-heading group-hover:text-[#C9A84C] transition-colors">
+                  <span className="font-bold text-white text-lg font-heading group-hover:text-[#C9A84C] transition-colors">
                     {t(`q${key}` as const)}
                   </span>
                   <ChevronDown
@@ -67,7 +67,7 @@ export default function FAQSection() {
                       transition={{ duration: 0.3, ease: "easeInOut" }}
                       className="overflow-hidden"
                     >
-                      <p className="text-[#1B396A]/70 text-base leading-relaxed pt-3 font-sans">
+                      <p className="text-slate-300 text-base leading-relaxed pt-3 font-sans">
                         {t(`a${key}` as const)}
                       </p>
                     </motion.div>

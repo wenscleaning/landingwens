@@ -106,10 +106,12 @@
   },
   "WhyChoose": {
     "title": "Why Choose Our Exceptional Cleaning Services?",
-    "feature1Title": "Exceptional Customer Service",
-    "feature1Desc": "Our cleaners are certified, background-checked, and trained to deliver spotless results every time. We maintain the highest standards in the industry.",
-    "feature2Title": "Qualified Cleaning Team",
-    "feature2Desc": "We handle every room with care, from living spaces to the toughest bathroom areas. No corner is left untouched by our professional team."
+    "feature1Title": "Attentive and reliable customer service",
+    "feature1Desc": "Our professionals are trained, verified and committed to delivering consistent, high-quality service. We guarantee serious follow-up and transparent communication at every visit.",
+    "feature2Title": "A qualified and thorough team",
+    "feature2Desc": "Every space is cleaned with care, from living areas to the most demanding zones like the bathroom. No detail is left to chance.",
+    "feature3Title": "A human-impact company",
+    "feature3Desc": "We value integration and trust, offering professional opportunities and a service based on respect and closeness."
   },
   "Founder": {
     "sectionTag": "Our Founder",
@@ -383,8 +385,8 @@
     "a6": "No problem. We can agree in advance on a way to access your home, or reschedule the appointment to another date.",
     "q7": "Do you work alone or with someone else?",
     "a7": "Wen's Cleaning Service started as a personal project and, thanks to our clients' trust, we are now a dedicated team committed to providing professional cleaning with a personal touch. We believe the devil is in the details, which is why every service is carried out with dedication, responsibility and passion.",
-    "q8": "Can we pay in cash or by bank transfer?",
-    "a8": "We accept both payment methods: cash or bank transfer, according to your preference."
+    "q8": "What payment methods do you accept?",
+    "a8": "We accept payment by bank transfer only. We do not accept cash payments."
   },
   "fab": {
     "ariaLabel": "Contact menu",
@@ -463,7 +465,7 @@
     "trust2": "5-star service rated by 50+ clients in Geneva",
     "trust3": "Flexible scheduling to match your agenda",
     "trust4": "Absolute discretion and respect for your space",
-    "formTitle": "Request a Free Quote",
+    "formTitle": "Work With Us",
     "formSubtitle": "We will contact you via WhatsApp within the hour",
     "placeholderName": "Full name *",
     "placeholderEmail": "Email address (optional)",

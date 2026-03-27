@@ -63,7 +63,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer id="contact" className="bg-[#0F2347] text-white pt-16 pb-8 border-t border-white/10">
+    <footer id="contact" className="bg-white text-[#0F2347] pt-16 pb-8 border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-6">
         {/* 4-column grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
@@ -77,17 +77,17 @@ export default function Footer() {
               }}
               className="flex items-center gap-3 mb-4 cursor-pointer"
             >
-              <Image src="/images/services/logo_white.png" alt="WEN'S Logo" width={52} height={52} className="brightness-100" />
-              <div className="flex flex-col">
-                <span className="text-2xl font-extrabold text-white leading-tight">
+              <Image src="/images/services/logo.png" alt="WEN'S Logo" width={44} height={44} />
+              <div className="flex items-baseline gap-1">
+                <span className="text-2xl font-extrabold text-[#1B396A]">
                   WEN&apos;S
                 </span>
-                <span className="text-sm font-bold text-[#C9A84C] leading-tight tracking-wide">
+                <span className="text-lg font-bold text-[#C9A84C]">
                   CLEANING
                 </span>
               </div>
             </a>
-            <p className="text-slate-400 text-sm leading-relaxed mb-4">
+            <p className="text-slate-500 text-sm leading-relaxed mb-4">
               {t("description")}
             </p>
             {/* Social icons */}
@@ -99,7 +99,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.name}
-                  className="w-9 h-9 rounded-full bg-white/10 hover:bg-[#C9A84C] flex items-center justify-center text-white hover:text-[#0F2347] transition-all duration-200"
+                  className="w-9 h-9 rounded-full bg-gray-100 hover:bg-[#C9A84C] flex items-center justify-center text-[#0F2347] hover:text-white transition-all duration-200"
                 >
                   {s.icon}
                 </a>
@@ -130,14 +130,14 @@ export default function Footer() {
                 value={footerEmail}
                 onChange={(e) => setFooterEmail(e.target.value)}
                 placeholder={t("emailPlaceholder")}
-                className="flex-1 bg-white/10 text-white placeholder:text-slate-400 text-sm px-4 py-2.5 rounded-l-lg border-none outline-none focus:bg-white/15 transition-colors"
+                className="flex-1 bg-gray-100 text-[#0F2347] placeholder:text-slate-400 text-sm px-4 py-2.5 rounded-l-lg border border-gray-200 outline-none focus:bg-gray-50 transition-colors"
               />
               <button
                 type="submit"
                 className="bg-[#C9A84C] hover:bg-[#b8943d] px-4 py-2.5 rounded-r-lg transition-colors"
                 aria-label={t("subscribe")}
               >
-                <ArrowRight className="w-4 h-4 text-[#0F2347]" />
+                <ArrowRight className="w-4 h-4 text-white" />
               </button>
             </form>
           </div>
@@ -152,7 +152,7 @@ export default function Footer() {
                 <li key={label}>
                   <a
                     href="#services"
-                    className="text-sm text-slate-300 hover:text-white transition-colors duration-200"
+                    className="text-sm text-slate-500 hover:text-[#0F2347] transition-colors duration-200"
                   >
                     {label}
                   </a>
@@ -171,7 +171,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-sm text-slate-300 hover:text-white transition-colors duration-200"
+                    className="text-sm text-slate-500 hover:text-[#0F2347] transition-colors duration-200"
                   >
                     {link.label}
                   </a>
@@ -185,7 +185,7 @@ export default function Footer() {
             <h4 className="text-[#C9A84C] uppercase tracking-widest text-xs font-bold mb-4">
               {t("findUsTitle")}
             </h4>
-            <ul className="space-y-3 text-sm text-slate-300">
+            <ul className="space-y-3 text-sm text-slate-500">
               <li className="flex items-start gap-2">
                 <span className="text-[#C9A84C]">📍</span>
                 <span>{t("address")}</span>
@@ -198,7 +198,7 @@ export default function Footer() {
                   href="https://wa.me/41778102004"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-white transition-colors duration-200"
+                  className="hover:text-[#0F2347] transition-colors duration-200"
                 >
                   {t("phone")}
                 </a>
@@ -212,15 +212,15 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <div className="border-t border-gray-200 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <p>
             &copy; {new Date().getFullYear()} WEN&apos;S Cleaning. {t("allRightsReserved")}
           </p>
           <div className="flex items-center gap-4">
-            <a href="#" className="hover:text-white transition-colors duration-200">
+            <a href="#" className="hover:text-[#0F2347] transition-colors duration-200">
               {t("privacyPolicy")}
             </a>
-            <a href="#" className="hover:text-white transition-colors duration-200">
+            <a href="#" className="hover:text-[#0F2347] transition-colors duration-200">
               {t("termsOfService")}
             </a>
           </div>

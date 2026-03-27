@@ -22,6 +22,10 @@ export const metadata: Metadata = {
   title: "WEN'S Professional Cleaning Services",
   description:
     "Professional cleaning services for homes and offices. Trusted by 30k+ happy customers. Book your cleaning today!",
+  icons: {
+    icon: "/images/services/logo.png",
+    apple: "/images/services/logo.png",
+  },
 };
 
 export function generateStaticParams() {

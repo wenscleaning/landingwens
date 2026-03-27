@@ -106,10 +106,12 @@
   },
   "WhyChoose": {
     "title": "Pourquoi Choisir Nos Services de Nettoyage Exceptionnels ?",
-    "feature1Title": "Service client exceptionnel",
-    "feature1Desc": "Nos nettoyeurs sont certifiés, vérifiés et formés pour livrer des résultats impeccables à chaque fois. Nous maintenons les normes les plus élevées.",
-    "feature2Title": "Équipe de nettoyage qualifiée",
-    "feature2Desc": "Nous prenons soin de chaque pièce, des espaces de vie aux zones de salle de bain les plus difficiles. Aucun coin n'est laissé sans attention."
+    "feature1Title": "Service client attentif et fiable",
+    "feature1Desc": "Nos professionnels sont formés, vérifiés et engagés à offrir un service constant et de qualité. Nous garantissons un suivi sérieux et une communication transparente à chaque intervention.",
+    "feature2Title": "Une équipe qualifiée et minutieuse",
+    "feature2Desc": "Chaque espace est nettoyé avec soin, des pièces de vie aux zones les plus exigeantes comme la salle de bain. Aucun détail n'est laissé au hasard.",
+    "feature3Title": "Une entreprise à impact humain",
+    "feature3Desc": "Nous valorisons l'intégration et la confiance, en offrant des opportunités professionnelles et un service basé sur le respect et la proximité."
   },
   "Founder": {
     "sectionTag": "Notre Fondatrice",
@@ -383,8 +385,8 @@
     "a6": "Aucun problème. Nous pouvons convenir à l'avance d'un mode d'accès à votre logement ou reporter le rendez-vous à une autre date.",
     "q7": "Travaillez-vous seule ou avec quelqu'un d'autre ?",
     "a7": "Wens Cleaning Service a débuté comme un projet personnel et, grâce à la confiance de nos clients, nous sommes aujourd'hui une équipe dévouée à fournir un nettoyage professionnel avec une touche personnelle. Nous sommes convaincus que le diable se cache dans les détails, et c'est pourquoi chaque prestation est réalisée avec dévouement, responsabilité et passion.",
-    "q8": "Peut-on payer en espèces ou par virement ?",
-    "a8": "Nous acceptons les deux modes de paiement : en espèces ou par virement bancaire, selon votre préférence."
+    "q8": "Quels modes de paiement acceptez-vous ?",
+    "a8": "Nous acceptons uniquement le virement bancaire. Nous n'acceptons pas les paiements en espèces."
   },
   "fab": {
     "ariaLabel": "Menu de contact",
@@ -463,7 +465,7 @@
     "trust2": "Service 5 étoiles évalué par 50+ clients à Genève",
     "trust3": "Planification flexible adaptée à votre agenda",
     "trust4": "Discrétion absolue et respect de votre espace",
-    "formTitle": "Demandez un devis gratuit",
+    "formTitle": "Travaillez avec nous",
     "formSubtitle": "Nous vous contactons via WhatsApp dans l'heure",
     "placeholderName": "Nom complet *",
     "placeholderEmail": "Adresse e-mail (optionnel)",

@@ -106,10 +106,12 @@
   },
   "WhyChoose": {
     "title": "¿Por Qué Elegir Nuestros Excepcionales Servicios de Limpieza?",
-    "feature1Title": "Servicio al cliente excepcional",
-    "feature1Desc": "Nuestros limpiadores están certificados, verificados y formados para ofrecer resultados impecables en cada visita. Mantenemos los estándares más altos.",
-    "feature2Title": "Equipo de limpieza cualificado",
-    "feature2Desc": "Cuidamos cada rincón, desde los espacios de estar hasta las zonas de baño más difíciles. Ningún rincón queda sin atención."
+    "feature1Title": "Servicio al cliente atento y confiable",
+    "feature1Desc": "Nuestros profesionales están formados, verificados y comprometidos a ofrecer un servicio constante y de calidad. Garantizamos un seguimiento serio y una comunicación transparente en cada intervención.",
+    "feature2Title": "Un equipo cualificado y minucioso",
+    "feature2Desc": "Cada espacio se limpia con cuidado, desde las estancias hasta las zonas más exigentes como el baño. Ningún detalle se deja al azar.",
+    "feature3Title": "Una empresa de impacto humano",
+    "feature3Desc": "Valoramos la integración y la confianza, ofreciendo oportunidades profesionales y un servicio basado en el respeto y la proximidad."
   },
   "Founder": {
     "sectionTag": "Nuestra Fundadora",
@@ -383,8 +385,8 @@
     "a6": "Sin problema. Podemos acordar de antemano una forma de acceso a tu vivienda o aplazar la cita a otra fecha.",
     "q7": "¿Trabajáis solos o con otras personas?",
     "a7": "Wens Cleaning Service comenzó como un proyecto personal y, gracias a la confianza de nuestros clientes, hoy somos un equipo dedicado a ofrecer una limpieza profesional con un toque personal. Creemos que los detalles marcan la diferencia, y por eso cada servicio se realiza con dedicación, responsabilidad y pasión.",
-    "q8": "¿Se puede pagar en efectivo o por transferencia?",
-    "a8": "Aceptamos ambas formas de pago: en efectivo o por transferencia bancaria, según tu preferencia."
+    "q8": "¿Qué métodos de pago aceptan?",
+    "a8": "Aceptamos únicamente transferencia bancaria. No aceptamos pagos en efectivo."
   },
   "fab": {
     "ariaLabel": "Menú de contacto",
@@ -463,7 +465,7 @@
     "trust2": "Servicio 5 estrellas valorado por +50 clientes en Ginebra",
     "trust3": "Horarios flexibles adaptados a tu agenda",
     "trust4": "Discreción absoluta y respeto por tu espacio",
-    "formTitle": "Solicita un presupuesto gratuito",
+    "formTitle": "Trabaja con nosotros",
     "formSubtitle": "Te contactaremos por WhatsApp en menos de una hora",
     "placeholderName": "Nombre completo *",
     "placeholderEmail": "Correo electrónico (opcional)",

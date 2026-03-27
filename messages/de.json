@@ -106,10 +106,12 @@
   },
   "WhyChoose": {
     "title": "Warum unsere außergewöhnlichen Reinigungsdienstleistungen wählen?",
-    "feature1Title": "Außergewöhnlicher Kundenservice",
-    "feature1Desc": "Unsere Reinigungskräfte sind zertifiziert, überprüft und geschult, um jedes Mal makellose Ergebnisse zu liefern. Wir halten die höchsten Standards ein.",
-    "feature2Title": "Qualifiziertes Reinigungsteam",
-    "feature2Desc": "Wir kümmern uns um jeden Raum, von Wohnbereichen bis zu den anspruchsvollsten Badezimmerzonen. Kein Winkel bleibt unbeachtet."
+    "feature1Title": "Aufmerksamer und zuverlässiger Kundenservice",
+    "feature1Desc": "Unsere Fachleute sind ausgebildet, geprüft und engagiert, einen beständigen und qualitativ hochwertigen Service zu bieten. Wir garantieren seriöse Nachverfolgung und transparente Kommunikation bei jedem Einsatz.",
+    "feature2Title": "Ein qualifiziertes und gründliches Team",
+    "feature2Desc": "Jeder Bereich wird sorgfältig gereinigt, von den Wohnräumen bis zu anspruchsvollen Zonen wie dem Badezimmer. Kein Detail wird dem Zufall überlassen.",
+    "feature3Title": "Ein Unternehmen mit menschlichem Einfluss",
+    "feature3Desc": "Wir schätzen Integration und Vertrauen und bieten berufliche Chancen sowie einen auf Respekt und Nähe basierenden Service."
   },
   "Founder": {
     "sectionTag": "Unsere Gründerin",
@@ -383,8 +385,8 @@
     "a6": "Kein Problem. Wir können im Voraus eine Zugangsmöglichkeit zu Ihrer Unterkunft vereinbaren oder den Termin auf ein anderes Datum verschieben.",
     "q7": "Arbeiten Sie allein oder mit anderen zusammen?",
     "a7": "Wen's Cleaning Service begann als persönliches Projekt und ist dank des Vertrauens unserer Kunden heute ein engagiertes Team, das professionelle Reinigung mit einer persönlichen Note anbietet. Wir sind überzeugt, dass der Teufel im Detail steckt, und deshalb wird jede Leistung mit Hingabe, Verantwortung und Leidenschaft erbracht.",
-    "q8": "Kann man bar oder per Überweisung bezahlen?",
-    "a8": "Wir akzeptieren beide Zahlungsarten: bar oder per Banküberweisung, je nach Ihrer Präferenz."
+    "q8": "Welche Zahlungsmethoden akzeptieren Sie?",
+    "a8": "Wir akzeptieren ausschließlich Banküberweisung. Barzahlung wird nicht akzeptiert."
   },
   "fab": {
     "ariaLabel": "Kontaktmenü",
@@ -463,7 +465,7 @@
     "trust2": "5-Sterne-Service von 50+ Kunden in Genf bewertet",
     "trust3": "Flexible Terminplanung nach Ihrem Kalender",
     "trust4": "Absolute Diskretion und Respekt für Ihren Raum",
-    "formTitle": "Kostenloses Angebot anfordern",
+    "formTitle": "Arbeiten Sie mit uns",
     "formSubtitle": "Wir kontaktieren Sie innerhalb einer Stunde per WhatsApp",
     "placeholderName": "Vollständiger Name *",
     "placeholderEmail": "E-Mail-Adresse (optional)",
