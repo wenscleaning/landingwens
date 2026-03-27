@@ -65,16 +65,13 @@ export default function WorkWithUsSection() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <span className="inline-block text-[#C9A84C] text-sm font-bold uppercase tracking-widest mb-3">
+          {/* <span className="inline-block text-[#C9A84C] text-sm font-bold uppercase tracking-widest mb-3">
             {t("sectionTag")}
-          </span>
+          </span> */}
           <h2 className="text-[#1B396A] font-heading text-3xl md:text-4xl font-extrabold">
             {t("title")}
           </h2>
-          <div className="w-16 h-1 bg-[#C9A84C] mx-auto my-5" />
-          <p className="text-slate-500 max-w-xl mx-auto text-base">
-            {t("description")}
-          </p>
+          <div className="w-16 h-1 bg-[#C9A84C] mx-auto mt-5" />
         </motion.div>
 
         {/* Two columns */}
@@ -127,14 +124,14 @@ export default function WorkWithUsSection() {
                       animate="visible"
                     >
                       {/* Trust items — compact */}
-                      <motion.ul variants={fadeInUp} className="space-y-1.5 pb-2 border-b border-slate-100">
+                      {/* <motion.ul variants={fadeInUp} className="space-y-1.5 pb-2 border-b border-slate-100">
                         {(["trust1", "trust2", "trust3", "trust4"] as const).map((key) => (
                           <li key={key} className="flex items-center gap-2">
                             <CheckCircle className="w-3.5 h-3.5 text-[#C9A84C] flex-shrink-0" />
                             <span className="text-slate-500 text-xs">{t(key)}</span>
                           </li>
                         ))}
-                      </motion.ul>
+                      </motion.ul> */}
 
                       {/* Name */}
                       <motion.div variants={fadeInUp} className="relative">

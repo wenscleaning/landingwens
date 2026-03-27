@@ -92,7 +92,6 @@ export default function WhyChooseSection() {
                 <Star className="text-[#C9A84C] fill-[#C9A84C] w-6 h-6 flex-shrink-0" />
                 <div>
                   <p className="text-white font-extrabold text-lg leading-none">4.9/5</p>
-                  {/* <p className="text-slate-400 text-xs mt-0.5">+800 avis</p> */}
                 </div>
               </motion.div>
 

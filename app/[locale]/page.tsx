@@ -31,11 +31,11 @@ export default function Home() {
         <TrustedLogosSection />
         <TrustedBySection />
         {/* <PricingSection /> */}
-        <WhyChooseSection />
+        {/* <WhyChooseSection /> */}
         <FounderSection />
         <WhyWensSection />
         <FAQSection />
-        <CTASection />
+        {/* <CTASection /> */}
         <WorkWithUsSection />
       </main>
       <Footer />

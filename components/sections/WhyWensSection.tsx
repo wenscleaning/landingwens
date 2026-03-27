@@ -89,7 +89,7 @@ export default function WhyWensSection() {
 
         {/* Image + text side by side */}
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-          {/* Image */}
+          {/* Collage */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -97,14 +97,35 @@ export default function WhyWensSection() {
             transition={{ duration: 0.6 }}
             className="lg:w-1/2 w-full"
           >
-            <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/3]">
-              <Image
-                src="/images/services/why-choose.jpg"
-                alt={t("imageAlt")}
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-tr from-[#0F2347]/30 to-transparent" />
+            <div className="flex gap-2 h-[440px]">
+              {/* Left: large tall image */}
+              <div className="relative w-[58%] rounded-2xl overflow-hidden shadow-lg">
+                <Image
+                  src="/images/services/collage1.jpeg"
+                  alt="Clean interior with staircase"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              {/* Right: two stacked images */}
+              <div className="flex flex-col gap-2 w-[42%]">
+                <div className="relative flex-1 rounded-2xl overflow-hidden shadow-lg">
+                  <Image
+                    src="/images/services/collage2.jpeg"
+                    alt="Clean bathroom"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative flex-1 rounded-2xl overflow-hidden shadow-lg">
+                  <Image
+                    src="/images/services/collage3.jpeg"
+                    alt="Clean office"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
             </div>
           </motion.div>
 

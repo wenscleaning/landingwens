@@ -15,8 +15,8 @@ interface ServiceCard {
 
 const services: ServiceCard[] = [
   { key: "kitchen",  descKey: "kitchenDesc",  expandDescKey: "appartements_desc", image: "/images/services/image7.jpg" },
-  { key: "office",   descKey: "officeDesc",   expandDescKey: "bureaux_desc",       image: "/images/services/home.jpg" },
-  { key: "bathroom", descKey: "bathroomDesc", expandDescKey: "bail_desc",          image: "/images/services/construction.jpg" },
+  { key: "office",   descKey: "officeDesc",   expandDescKey: "bureaux_desc",       image: "/images/services/image.jpeg" },
+  { key: "bathroom", descKey: "bathroomDesc", expandDescKey: "bail_desc",          image: "/images/services/construction.jpeg" },
   { key: "sofa",     descKey: "sofaDesc",     expandDescKey: "evenements_desc",    image: "/images/services/office.jpg" },
   { key: "window",   descKey: "windowDesc",   expandDescKey: "vitres_desc",        image: "/images/services/windows.jpg" },
   { key: "garden",   descKey: "gardenDesc",   expandDescKey: "conciergerie_desc",  image: "/images/services/concierge.jpg" },
