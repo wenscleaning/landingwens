@@ -5,21 +5,24 @@ import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { ChevronRight, X, User, Phone, Mail, MessageSquare, Send, CheckCircle2 } from "lucide-react";
 import { useTranslations } from "next-intl";
+import BeforeAfterSlider from "@/components/ui/BeforeAfterSlider";
 
 interface ServiceCard {
   key: string;
   descKey: string;
   expandDescKey: string;
   image: string;
+  beforeImage: string;
+  afterImage: string;
 }
 
 const services: ServiceCard[] = [
-  { key: "kitchen",  descKey: "kitchenDesc",  expandDescKey: "appartements_desc", image: "/images/services/image7.jpg" },
-  { key: "office",   descKey: "officeDesc",   expandDescKey: "bureaux_desc",       image: "/images/services/image.jpeg" },
-  { key: "bathroom", descKey: "bathroomDesc", expandDescKey: "bail_desc",          image: "/images/services/construction.jpeg" },
-  { key: "sofa",     descKey: "sofaDesc",     expandDescKey: "evenements_desc",    image: "/images/services/office.jpg" },
-  { key: "window",   descKey: "windowDesc",   expandDescKey: "vitres_desc",        image: "/images/services/windows.jpg" },
-  { key: "garden",   descKey: "gardenDesc",   expandDescKey: "conciergerie_desc",  image: "/images/services/concierge.jpg" },
+  { key: "kitchen",  descKey: "kitchenDesc",  expandDescKey: "appartements_desc", image: "/images/services/image7.jpg",          beforeImage: "/images/services/sucio2.jpeg", afterImage: "/images/services/image7.jpg" },
+  { key: "office",   descKey: "officeDesc",   expandDescKey: "bureaux_desc",       image: "/images/services/image.jpeg",          beforeImage: "/images/services/sucio3.jpeg", afterImage: "/images/services/image.jpeg" },
+  { key: "bathroom", descKey: "bathroomDesc", expandDescKey: "bail_desc",          image: "/images/services/construction.jpeg",   beforeImage: "/images/services/construction.jpeg", afterImage: "/images/services/construction.jpeg" },
+  { key: "sofa",     descKey: "sofaDesc",     expandDescKey: "evenements_desc",    image: "/images/services/office.jpg",          beforeImage: "/images/services/sucio5.jpeg", afterImage: "/images/services/office.jpg" },
+  { key: "window",   descKey: "windowDesc",   expandDescKey: "vitres_desc",        image: "/images/services/windows.jpg",         beforeImage: "/images/services/sucio1.jpeg", afterImage: "/images/services/windows.jpg" },
+  { key: "garden",   descKey: "gardenDesc",   expandDescKey: "conciergerie_desc",  image: "/images/services/concierge.jpg",       beforeImage: "/images/services/sucio4.jpeg", afterImage: "/images/services/concierge.jpg" },
 ];
 
 const containerVariants = {
@@ -111,15 +114,14 @@ function ServiceModal({ serviceKey, t, tForm, onClose }: ServiceModalProps) {
 
         {/* Scrollable body — image lives here */}
         <div className="overflow-y-auto overscroll-contain flex-1 rounded-b-2xl [scrollbar-width:thin] [scrollbar-color:#C9A84C33_transparent] [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-[#C9A84C]/25 [&::-webkit-scrollbar-thumb]:rounded-full">
-          {/* Service image inside scroll area */}
-          <div className="relative h-52 w-full overflow-hidden">
-            <Image
-              src={service.image}
-              alt={t(service.key)}
-              fill
-              className="object-cover"
-            />
-          </div>
+          {/* Before/After slider */}
+          <BeforeAfterSlider
+            beforeImage={service.beforeImage}
+            afterImage={service.afterImage}
+            beforeLabel={tForm("before")}
+            afterLabel={tForm("after")}
+            alt={t(service.key)}
+          />
           <AnimatePresence mode="wait">
             {submitted ? (
               <motion.div

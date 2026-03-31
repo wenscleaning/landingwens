@@ -83,7 +83,9 @@
     "review6Text": "Excellent cleaning company. Clean and meticulous work.",
     "review6Author": "Catalina Ferrer",
     "review6Role": "Business Owner",
-    "seeMore": "See more reviews"
+    "seeMore": "See more reviews",
+    "leaveReview": "Leave a Google Review",
+    "seeAllGoogle": "See all reviews on Google"
   },
   "Pricing": {
     "title": "Our Plans",
@@ -440,7 +442,9 @@
     "whatsappGreeting": "Hello! I'd like to request a cleaning service with Wen's.",
     "successTitle": "Request Sent!",
     "successMessage": "Your message has been opened in WhatsApp. We'll get back to you shortly.",
-    "successClose": "Close"
+    "successClose": "Close",
+    "before": "Before",
+    "after": "After"
   },
   "WhyWens": {
     "title": "Why Choose WEN'S Cleaning Services?",
