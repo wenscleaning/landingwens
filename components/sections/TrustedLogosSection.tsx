@@ -14,8 +14,8 @@ export default function TrustedLogosSection() {
   const t = useTranslations("TrustedLogos");
 
   return (
-    <section className="bg-[#F6F7F8] py-14">
-      <div className="max-w-5xl mx-auto px-6">
+    <section className="bg-[#F6F7F8] py-10 sm:py-14">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6">
 
         {/* Title with gold decorators */}
         <motion.div
@@ -23,17 +23,17 @@ export default function TrustedLogosSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="flex items-center justify-center gap-4 mb-12"
+          className="flex items-center justify-center gap-3 sm:gap-4 mb-8 sm:mb-12"
         >
-          <div className="h-px w-12 bg-[#C9A84C]/50" />
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#0F2347]/50">
+          <div className="h-0.5 w-8 sm:w-12 bg-[#C9A84C]/50" />
+          <h1 className="text-base sm:text-2xl  font-black uppercase tracking-[0.12em] sm:tracking-[0.2em] text-[#0F2347]/70 text-center">
             {t("title")}
-          </p>
-          <div className="h-px w-12 bg-[#C9A84C]/50" />
+          </h1>
+          <div className="h-0.5 w-8 sm:w-12 bg-[#C9A84C]/50" />
         </motion.div>
 
         {/* Logos */}
-        <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
+        <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 md:gap-10">
           {logos.map((logo, i) => (
             <motion.div
               key={logo.alt}
@@ -42,7 +42,7 @@ export default function TrustedLogosSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.45, delay: i * 0.12 }}
               className={`
-                relative w-44 h-20 rounded-xl overflow-hidden
+                relative w-56 h-24 rounded-xl overflow-hidden
                 border border-gray-200 shadow-sm
                 transition-all duration-300 hover:shadow-md hover:-translate-y-0.5
                 ${logo.darkBg ? "bg-black" : "bg-white"}
