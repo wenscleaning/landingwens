@@ -83,7 +83,9 @@
     "review6Text": "Excellente société de nettoyage. Travail propre et soigné.",
     "review6Author": "Catalina Ferrer",
     "review6Role": "Chef d'Entreprise",
-    "seeMore": "Voir plus d'avis"
+    "seeMore": "Voir plus d'avis",
+    "leaveReview": "Laisser un avis Google",
+    "seeAllGoogle": "Voir tous les avis sur Google"
   },
   "Pricing": {
     "title": "Nos Formules",
@@ -440,7 +442,9 @@
     "whatsappGreeting": "Bonjour ! Je souhaite demander un service de nettoyage avec Wen's.",
     "successTitle": "Demande Envoyée !",
     "successMessage": "Votre message a été ouvert dans WhatsApp. Nous vous répondrons rapidement.",
-    "successClose": "Fermer"
+    "successClose": "Fermer",
+    "before": "Avant",
+    "after": "Après"
   },
   "WhyWens": {
     "title": "Pourquoi choisir WEN'S Cleaning Services ?",
