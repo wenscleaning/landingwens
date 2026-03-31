@@ -57,21 +57,21 @@ export default function WorkWithUsSection() {
       <div className="max-w-6xl mx-auto px-6">
 
         {/* Section header */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          {/* <span className="inline-block text-[#C9A84C] text-sm font-bold uppercase tracking-widest mb-3">
+          <span className="inline-block text-[#C9A84C] text-sm font-bold uppercase tracking-widest mb-3">
             {t("sectionTag")}
-          </span> */}
+          </span>
           <h2 className="text-[#1B396A] font-heading text-3xl md:text-4xl font-extrabold">
             {t("title")}
           </h2>
           <div className="w-16 h-1 bg-[#C9A84C] mx-auto mt-5" />
-        </motion.div>
+        </motion.div> */}
 
         {/* Two columns */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-stretch">
