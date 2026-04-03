@@ -124,7 +124,7 @@
     "role": "Fondatrice & Directrice",
     "bio": "Wendy Larco a fondé Wen's Cleaning Services avec une vision claire : offrir un service de nettoyage professionnel d'excellence à Genève. Issue du programme SINGA Switzerland, son parcours entrepreneurial a été reconnu et récompensé pour son engagement envers la qualité et l'intégration professionnelle.",
     "achievement1Title": "Prix SINGA Stories 2025",
-    "achievement1Desc": "Lauréate du prix d'entrepreneuriat SINGA à Meyrin, Genève — une reconnaissance de l'excellence et de l'innovation dans les services professionnels.",
+    "achievement1Desc": "Lauréate du prix d'entrepreneuriat SINGA à Meyrin, Genève — Une reconnaissance de l’excellence, une approche innovante centrée sur l’humain et l’intégration professionnelle.",
     "newBio": "Wendy Larco est la Fondatrice - Directrice de Wen's Cleaning Service, une entreprise née d'une vision claire : offrir un service de nettoyage de qualité, fondé sur la confiance, le professionnalisme et le respect. Animée par des valeurs humaines et un véritable esprit entrepreneurial, elle a construit son entreprise avec passion, persévérance et engagement. Son objectif est d'apporter bien plus qu'un service : offrir une expérience fiable, soignée et adaptée à chaque client. À travers Wens Cleaning Service, elle souhaite proposer un service qui va au-delà du nettoyage, en contribuant au bien-être quotidien de ses clients et en construisant une relation de confiance durable.",
     "awardTitle": "Prix SINGA – Impact Local 2025",
     "awardText": "Le 19 novembre 2025, lors de l'événement SINGA Switzerland, organisé dans les locaux de la Fédération des Entreprises Romandes, Wendy Clean Service a été récompensée par le Prix de l'Impact Local dans le cadre de SINGA Stories Genève. Cette reconnaissance témoigne de l'engagement de Wendy et de son équipe au service de la communauté genevoise et de l'excellence professionnelle."
@@ -376,8 +376,8 @@
   "faq": {
     "title": "Questions fréquentes",
     "subtitle": "Trouvez les réponses à vos questions les plus courantes sur nos services de nettoyage.",
-    "q1": "Combien de temps faut-il pour nettoyer toute la maison ?",
-    "a1": "La durée dépend de la taille du logement et du type de nettoyage demandé. En général, un nettoyage complet prend entre 2 et 5 heures. Nous vous informerons toujours de la durée estimée avant de commencer.",
+    "q1": "Voulez-vous que ce soit tard pour nettoyer toute la maison ?",
+    "a1": "Chaque espace est unique, car le temps de nettoyage peut varier. Nous effectuons une première visite pour évaluer vos besoins et offrir un présupposé personnalisé. Dès aujourd’hui, nous définissons les heures de travail nécessaires.",
     "q2": "Apportez-vous vos propres produits ou dois-je laisser les miens ?",
     "a2": "Nous apportons nos propres produits et équipements de nettoyage professionnels. Si vous préférez que nous utilisions les vôtres, c'est également possible.",
     "q3": "Pouvez-vous aussi nettoyer les vitres, le four, le réfrigérateur ou les stores ?",
@@ -391,7 +391,7 @@
     "q7": "Travaillez-vous seule ou avec quelqu'un d'autre ?",
     "a7": "Wens Cleaning Service a débuté comme un projet personnel et, grâce à la confiance de nos clients, nous sommes aujourd'hui une équipe dévouée à fournir un nettoyage professionnel avec une touche personnelle. Nous sommes convaincus que le diable se cache dans les détails, et c'est pourquoi chaque prestation est réalisée avec dévouement, responsabilité et passion.",
     "q8": "Quels modes de paiement acceptez-vous ?",
-    "a8": "Nous acceptons uniquement le virement bancaire. Nous n'acceptons pas les paiements en espèces."
+    "a8": "Le paiement se fait par virement bancaire, TWINT ou en espèces, après chaque service. Pour les clients réguliers, nous proposons la facturation mensuelle."
   },
   "fab": {
     "ariaLabel": "Menu de contact",
@@ -450,7 +450,7 @@
     "title": "Pourquoi choisir WEN'S Cleaning Services ?",
     "subtitle": "Quatre piliers qui définissent notre engagement envers vous chaque jour.",
     "card1Title": "Excellence dans chaque détail",
-    "card1Desc": "Un haut niveau d'exigence à chaque intervention — aucun recoin n'est négligé.",
+    "card1Desc": "Un haut niveau de professionnalisme où chaque recoin est traité avec soin.",
     "card2Title": "Discrétion et confiance",
     "card2Desc": "Un respect absolu de votre espace et de votre intimité dans tout ce que nous faisons.",
     "card3Title": "Service sur mesure",
@@ -459,9 +459,11 @@
     "card4Desc": "Une qualité constante, assurée avec ponctualité et professionnalisme.",
     "closingQuote": "L'excellence se révèle dans chaque détail.",
     "sideTag": "Notre engagement",
-    "sideTitle": "Un standard qui ne fléchit jamais",
-    "sideText1": "Chez Wen's Cleaning Services, nous croyons qu'un espace vraiment propre est celui où chaque surface, chaque recoin et chaque détail a été traité avec soin. C'est cette philosophie qui guide notre équipe à chaque intervention.",
-    "sideText2": "Du premier contact à l'inspection finale, notre objectif est unique : votre entière satisfaction. Parce qu'un intérieur propre n'est pas seulement un intérieur propre — c'est la tranquillité d'esprit.",
+    "sideTitle": "Un standard d’excellence constant",
+    "sideText1": "Chez Wen’s Cleaning Services, nous sommes convaincus qu’un espace véritablement propre ne laisse rien au hasard. Chaque surface, chaque recoin et chaque détail est traité avec la plus grande rigueur et un soin méticuleux.",
+    "sideText2": "Cette exigence guide chacune de nos interventions et reflète notre engagement envers une qualité irréprochable.",
+    "sideText3": "Du premier contact jusqu’à l’inspection finale, notre priorité est simple : votre entière satisfaction.",
+    "sideText4": "Parce qu’un environnement impeccable ne se limite pas à l’apparence — il apporte sérénité, confort et bien-être au quotidien.",
     "imageAlt": "Équipe Wen's Cleaning en action"
   },
   "WorkWithUs": {
@@ -472,8 +474,8 @@
     "trust2": "Service 5 étoiles évalué par 50+ clients à Genève",
     "trust3": "Planification flexible adaptée à votre agenda",
     "trust4": "Discrétion absolue et respect de votre espace",
-    "formTitle": "Travaillez avec nous",
-    "formSubtitle": "Écrivez-nous pour obtenir plus d'informations sur la façon dont nous pouvons vous aider.",
+    "formTitle": "Rejoignez notre équipe",
+    "formSubtitle": "Nous offrons un environnement de travail sérieux, stable et respectueux. Rejoignez une entreprise de confiance.",
     "placeholderName": "Nom complet *",
     "placeholderEmail": "Adresse e-mail (optionnel)",
     "placeholderPhone": "Numéro de téléphone *",
