@@ -376,8 +376,8 @@
   "faq": {
     "title": "Häufig gestellte Fragen",
     "subtitle": "Finden Sie Antworten auf Ihre häufigsten Fragen zu unseren Reinigungsdienstleistungen.",
-    "q1": "Wie lange dauert es, das gesamte Haus zu reinigen?",
-    "a1": "Die Dauer hängt von der Größe der Unterkunft und der Art der gewünschten Reinigung ab. Im Allgemeinen dauert eine vollständige Reinigung zwischen 2 und 5 Stunden. Wir informieren Sie stets über die geschätzte Dauer, bevor wir beginnen.",
+    "q1": "Wie lange hat die Reinigung des gesamten Hauses gedauert?",
+    "a1": "Da jedes Haus individuell ist, kann die Reinigungszeit variieren. Vereinbaren Sie einen ersten Besuch, um Ihren Bedarf zu ermitteln und Ihre Wünsche individuell zu besprechen. Anschließend legen wir die benötigten Arbeitsstunden fest.",
     "q2": "Bringen Sie Ihre eigenen Produkte mit oder soll ich meine bereitstellen?",
     "a2": "Wir bringen unsere eigenen professionellen Reinigungsprodukte und -geräte mit. Wenn Sie bevorzugen, dass wir Ihre verwenden, ist das ebenfalls möglich.",
     "q3": "Können Sie auch Fenster, Backofen, Kühlschrank oder Jalousien reinigen?",
@@ -391,7 +391,7 @@
     "q7": "Arbeiten Sie allein oder mit anderen zusammen?",
     "a7": "Wen's Cleaning Service begann als persönliches Projekt und ist dank des Vertrauens unserer Kunden heute ein engagiertes Team, das professionelle Reinigung mit einer persönlichen Note anbietet. Wir sind überzeugt, dass der Teufel im Detail steckt, und deshalb wird jede Leistung mit Hingabe, Verantwortung und Leidenschaft erbracht.",
     "q8": "Welche Zahlungsmethoden akzeptieren Sie?",
-    "a8": "Wir akzeptieren ausschließlich Banküberweisung. Barzahlung wird nicht akzeptiert."
+    "a8": "Die Zahlung erfolgt per Überweisung, TWINT oder Barzahlung, nach jedem Service. Für regelmäßige Kunden bieten wir monatliche Rechnungsstellung an."
   },
   "fab": {
     "ariaLabel": "Kontaktmenü",
@@ -459,9 +459,11 @@
     "card4Desc": "Gleichbleibende Qualität, mit Pünktlichkeit und Professionalität erbracht.",
     "closingQuote": "Exzellenz zeigt sich in jedem Detail.",
     "sideTag": "Unser Engagement",
-    "sideTitle": "Ein Standard, der niemals nachlässt",
-    "sideText1": "Bei Wen's Cleaning Services sind wir überzeugt, dass ein wirklich sauberer Raum einer ist, bei dem jede Oberfläche, jeder Winkel und jedes Detail sorgfältig behandelt wurde. Diese Philosophie leitet unser Team bei jedem Einsatz.",
-    "sideText2": "Vom ersten Kontakt bis zur abschließenden Kontrolle ist unser Ziel eines: Ihre vollste Zufriedenheit. Denn ein sauberes Zuhause ist nicht nur ein sauberes Zuhause — es ist Seelenfrieden.",
+    "sideTitle": "Konsequente Exzellenz",
+    "sideText1": "Bei Wen’s Cleaning Services sind wir überzeugt, dass absolute Sauberkeit nichts dem Zufall überlässt. Jede Oberfläche, jede Ecke und jedes Detail wird mit größter Sorgfalt und Akribie behandelt.",
+    "sideText2": "Dieses Engagement prägt all unsere Arbeiten und spiegelt unser Streben nach makelloser Qualität wider.",
+    "sideText3": "Vom ersten Kontakt bis zur Endabnahme ist unsere Priorität klar: Ihre vollste Zufriedenheit.",
+    "sideText4": "Denn ein makelloses Umfeld ist mehr als nur ein schöner Anblick – es schenkt Ihnen Ruhe, Komfort und Wohlbefinden im Alltag.",
     "imageAlt": "Wen's Cleaning Team bei der Arbeit"
   },
   "WorkWithUs": {
@@ -472,8 +474,8 @@
     "trust2": "5-Sterne-Service von 50+ Kunden in Genf bewertet",
     "trust3": "Flexible Terminplanung nach Ihrem Kalender",
     "trust4": "Absolute Diskretion und Respekt für Ihren Raum",
-    "formTitle": "Arbeiten Sie mit uns",
-    "formSubtitle": "Schreiben Sie uns, um mehr Informationen darüber zu erhalten, wie wir Ihnen helfen können.",
+    "formTitle": "Werden Sie Teil unseres Teams!",
+    "formSubtitle": "Wir bieten ein seriöses, sicheres und wertschätzendes Arbeitsumfeld. Arbeiten Sie für ein vertrauenswürdiges Unternehmen.",
     "placeholderName": "Vollständiger Name *",
     "placeholderEmail": "E-Mail-Adresse (optional)",
     "placeholderPhone": "Telefonnummer *",

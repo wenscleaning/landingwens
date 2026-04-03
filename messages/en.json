@@ -376,8 +376,8 @@
   "faq": {
     "title": "Frequently Asked Questions",
     "subtitle": "Find answers to the most common questions about our cleaning services.",
-    "q1": "How long does it take to clean an entire home?",
-    "a1": "The duration depends on the size of the home and the type of cleaning requested. Generally, a full clean takes between 2 and 5 hours. We will always inform you of the estimated duration before we begin.",
+    "q1": "How long did it take to clean the whole house?",
+    "a1": "This space is unique, so the cleaning time may vary. Make a first visit to assess your needs and offer a personalized request. From now on, we define the hours of work required.",
     "q2": "Do you bring your own products, or should I leave mine?",
     "a2": "We bring our own professional cleaning products and equipment. If you prefer that we use yours, that is also possible.",
     "q3": "Can you also clean windows, the oven, the fridge, or blinds?",
@@ -391,7 +391,7 @@
     "q7": "Do you work alone or with someone else?",
     "a7": "Wen's Cleaning Service started as a personal project and, thanks to our clients' trust, we are now a dedicated team committed to providing professional cleaning with a personal touch. We believe the devil is in the details, which is why every service is carried out with dedication, responsibility and passion.",
     "q8": "What payment methods do you accept?",
-    "a8": "We accept payment by bank transfer only. We do not accept cash payments."
+    "a8": "The payment is made by bank transfer, TWINT or cash, after each service. For regular customers, we offer monthly invoicing."
   },
   "fab": {
     "ariaLabel": "Contact menu",
@@ -459,9 +459,11 @@
     "card4Desc": "Consistent quality delivered with punctuality and full professionalism.",
     "closingQuote": "Excellence reveals itself in every detail.",
     "sideTag": "Our Commitment",
-    "sideTitle": "A Standard That Never Wavers",
-    "sideText1": "At Wen's Cleaning Services, we believe that a truly clean space is one where every surface, every corner and every detail has been handled with care. It is this philosophy that guides our team in every single service.",
-    "sideText2": "From the first contact to the final inspection, our goal is one: your complete satisfaction. Because a clean home is not just a clean home — it is peace of mind.",
+    "sideTitle": "A Consistent Standard of Excellence",
+    "sideText1": "At Wen’s Cleaning Services, we believe that a truly clean space leaves nothing to chance. Every surface, every nook and cranny, and every detail is treated with the utmost rigor and meticulous care.",
+    "sideText2": "This commitment guides each of our interventions and reflects our dedication to impeccable quality.",
+    "sideText3": "From the initial contact to the final inspection, our priority is simple: your complete satisfaction.",
+    "sideText4": "Because a spotless environment is more than just appearance—it brings serenity, comfort, and well-being to your everyday life.",
     "imageAlt": "Wen's Cleaning team at work"
   },
   "WorkWithUs": {
@@ -472,8 +474,8 @@
     "trust2": "5-star service rated by 50+ clients in Geneva",
     "trust3": "Flexible scheduling to match your agenda",
     "trust4": "Absolute discretion and respect for your space",
-    "formTitle": "Work With Us",
-    "formSubtitle": "Write to us to get more information about how we can help you.",
+    "formTitle": "Join our team",
+    "formSubtitle": "We offer a serious, stable, and respectful work environment. Join a trusted company.",
     "placeholderName": "Full name *",
     "placeholderEmail": "Email address (optional)",
     "placeholderPhone": "Phone number *",

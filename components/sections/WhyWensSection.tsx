@@ -146,8 +146,14 @@ export default function WhyWensSection() {
             <p className="text-slate-500 text-base leading-relaxed mb-4">
               {t("sideText1")}
             </p>
-            <p className="text-slate-500 text-base leading-relaxed">
+            <p className="text-slate-500 text-base leading-relaxed mb-4">
               {t("sideText2")}
+            </p>
+            <p className="text-slate-500 text-base leading-relaxed mb-4">
+              {t("sideText3")}
+            </p>
+            <p className="text-slate-500 text-base leading-relaxed">
+              {t("sideText4")}
             </p>
           </motion.div>
         </div>
