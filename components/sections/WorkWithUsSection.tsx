@@ -74,7 +74,7 @@ export default function WorkWithUsSection() {
         </motion.div> */}
 
         {/* Two columns */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-center">
 
           {/* LEFT — Form */}
           <motion.div
@@ -209,15 +209,15 @@ export default function WorkWithUsSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.12 }}
-            className="relative min-h-[480px] lg:min-h-0"
+            className="relative"
           >
             {/* Decorative gold frame offset behind image */}
             <div className="absolute -bottom-4 -right-4 w-full h-full rounded-2xl border border-[#C9A84C]/40 pointer-events-none z-0" />
 
-            {/* Image fills the full column height */}
-            <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-xl z-10">
+            {/* Aspect ratio matches portrait photo */}
+            <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-xl z-10">
               <Image
-                src="/images/services/image6.jpg"
+                src="/images/services/image11.jpg"
                 alt={t("imageAlt")}
                 fill
                 className="object-cover"
