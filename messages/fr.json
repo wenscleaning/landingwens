@@ -3,10 +3,10 @@
     "home": "Home",
     "about": "À propos",
     "service": "Services",
-    "contact": "Contact",
+    "contact": "Contactez-nous",
     "toggleMenu": "Basculer le menu",
     "languageSelector": "Sélecteur de langue",
-    "residential": "Nettoyage Maison",
+    "residential": "Nettoyage d’appartements",
     "commercial": "Nettoyage Commercial",
     "reviews": "Avis clients",
     "faq": "Questions fréquentes",
@@ -28,18 +28,18 @@
     "bgSubtitle": "Où le Nettoyage devient Excellence",
     "bullet1": "+12 ans de services de haute qualité",
     "bullet2": "Clients satisfaits",
-    "bullet3": "Engagement envers la Qualité",
+    "bullet3": "Travail soigné et impeccable",
     "bullet4": "Flexibilité et Adaptabilité",
     "cta": "DEMANDER UN DEVIS"
   },
   "Services": {
     "title": "Nos Services",
     "subtitle": "Une attention méticuleuse aux détails pour chaque type d'espace professionnel et résidentiel.",
-    "office": "Nettoyage Bureaux",
+    "office": "Nettoyage d’appartements",
     "officeDesc": "Entretien professionnel des espaces de travail selon les normes les plus exigeantes.",
     "garden": "Service Conciergerie",
     "gardenDesc": "Gestion complète de la propreté et de l'entretien quotidien de vos bâtiments.",
-    "kitchen": "Nettoyage Maison",
+    "kitchen": "Nettoyage d’appartements",
     "kitchenDesc": "Un service complet et sur mesure pour un intérieur impeccable et accueillant.",
     "window": "Nettoyage Vitres",
     "windowDesc": "Vitres et surfaces vitrées étincelantes, sans traces ni résidus.",
@@ -176,10 +176,11 @@
     "blog": "Blog",
     "services": "Services",
     "contactUs": "Contactez-nous",
+    "tagline": "L'ART DU DÉTAIL",
     "findUsTitle": "Contactez-nous",
     "address": "Genève, Suisse",
     "phone": "+41 77 810 20 04",
-    "email": "info@wenscleaning.ch",
+    "email": "contact@wenscleaning.ch",
     "emailPlaceholder": "Votre email...",
     "subscribe": "S'abonner",
     "allRightsReserved": "Tous droits réservés.",
@@ -235,7 +236,9 @@
     }
   },
   "residential": {
-    "hero": { "h2": "Chez Wen's, le nettoyage est une histoire d'amour !" },
+    "hero": {
+      "h2": "Chez Wen's, le nettoyage est une histoire d'amour !"
+    },
     "services": {
       "houseTitle": "Nettoyage de la maison",
       "houseDesc": "Nettoyage régulier, entretien des tapis, moquettes, vitres et persiennes.",
@@ -266,7 +269,9 @@
     "frequency3": "Mensuels"
   },
   "commercial": {
-    "hero": { "h1": "L'art du nettoyage professionnel" },
+    "hero": {
+      "h1": "L'art du nettoyage professionnel"
+    },
     "services": {
       "endOfLeaseTitle": "Fin de chantier / fin de bail",
       "endOfLeaseDesc": "Nettoyage et préparation post-construction.",
@@ -376,22 +381,22 @@
   "faq": {
     "title": "Questions fréquentes",
     "subtitle": "Trouvez les réponses à vos questions les plus courantes sur nos services de nettoyage.",
-    "q1": "Voulez-vous que ce soit tard pour nettoyer toute la maison ?",
-    "a1": "Chaque espace est unique, car le temps de nettoyage peut varier. Nous effectuons une première visite pour évaluer vos besoins et offrir un présupposé personnalisé. Dès aujourd’hui, nous définissons les heures de travail nécessaires.",
-    "q2": "Apportez-vous vos propres produits ou dois-je laisser les miens ?",
+    "q1": "Combien de temps faut-il pour nettoyer toute la maison ?",
+    "a1": "Chaque espace est unique, c’est pourquoi le temps de nettoyage peut varier. Nous effectuons une première visite afin d’évaluer vos besoins et de vous proposer un devis personnalisé.",
+    "q2": "Apportez-vous vos produits ou dois-je fournir les miens ?",
     "a2": "Nous apportons nos propres produits et équipements de nettoyage professionnels. Si vous préférez que nous utilisions les vôtres, c'est également possible.",
-    "q3": "Pouvez-vous aussi nettoyer les vitres, le four, le réfrigérateur ou les stores ?",
+    "q3": "Pouvez-vous également nettoyer les vitres, le four, le réfrigérateur ou les stores ?",
     "a3": "Oui, nous proposons des services supplémentaires tels que le nettoyage des vitres, du four, du réfrigérateur et des stores. Il suffit de le préciser lors de votre réservation.",
-    "q4": "Pouvez-vous venir toujours le même jour et à la même heure ?",
+    "q4": "Pouvez-vous intervenir toujours le même jour et à la même heure ?",
     "a4": "Bien sûr. Nous pouvons planifier un nettoyage régulier le jour et à l'heure qui vous conviennent le mieux.",
-    "q5": "Nettoyez-vous également l'extérieur ou seulement l'intérieur ?",
+    "q5": "Nettoyez-vous également les espaces extérieurs ou uniquement l’intérieur ?",
     "a5": "Nous effectuons principalement le nettoyage intérieur, mais nous pouvons également nous occuper de l'extérieur sur demande (balcons, terrasses, etc.).",
-    "q6": "Que se passe-t-il si je ne peux pas être chez moi un jour ?",
+    "q6": "Que se passe-t-il si je ne peux pas être présent(e) chez moi un jour ?",
     "a6": "Aucun problème. Nous pouvons convenir à l'avance d'un mode d'accès à votre logement ou reporter le rendez-vous à une autre date.",
-    "q7": "Travaillez-vous seule ou avec quelqu'un d'autre ?",
+    "q7": "Travaillez-vous seul(e) ou en équipe ?",
     "a7": "Wens Cleaning Service a débuté comme un projet personnel et, grâce à la confiance de nos clients, nous sommes aujourd'hui une équipe dévouée à fournir un nettoyage professionnel avec une touche personnelle. Nous sommes convaincus que le diable se cache dans les détails, et c'est pourquoi chaque prestation est réalisée avec dévouement, responsabilité et passion.",
-    "q8": "Quels modes de paiement acceptez-vous ?",
-    "a8": "Le paiement se fait par virement bancaire, TWINT ou en espèces, après chaque service. Pour les clients réguliers, nous proposons la facturation mensuelle."
+    "q8": "Quels moyens de paiement acceptez-vous ?",
+    "a8": "Le paiement s’effectue par virement bancaire, TWINT ou en espèces, après chaque service. Pour les clients réguliers, nous proposons la facturation mensuelle."
   },
   "fab": {
     "ariaLabel": "Menu de contact",
@@ -448,7 +453,7 @@
   },
   "WhyWens": {
     "title": "Pourquoi choisir WEN'S Cleaning Services ?",
-    "subtitle": "Quatre piliers qui définissent notre engagement envers vous chaque jour.",
+    "subtitle": "Nos quatre piliers pour vous garantir un service irréprochable.",
     "card1Title": "Excellence dans chaque détail",
     "card1Desc": "Un haut niveau de professionnalisme où chaque recoin est traité avec soin.",
     "card2Title": "Discrétion et confiance",
