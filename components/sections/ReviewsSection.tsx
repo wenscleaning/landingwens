@@ -9,7 +9,7 @@ const GOOGLE_REVIEW_URL = "https://g.page/r/CfXQlSNpnF2SEAE/review";
 const GOOGLE_REVIEWS_VIEW_URL = "https://g.page/r/CfXQlSNpnF2SEAE";
 
 const REVIEWS_PER_PAGE = 3;
-const TOTAL_REVIEWS = 6;
+const TOTAL_REVIEWS = 9;
 
 const cardVariants = {
   hidden: { opacity: 0, y: 30 },
@@ -140,7 +140,7 @@ export default function ReviewsSection() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -30 }}
             transition={{ duration: 0.35 }}
-            className="grid gap-6 md:grid-cols-3 mb-14 items-stretch"
+            className="grid gap-6 md:grid-cols-3 mb-14"
           >
             {currentReviews.map((review, i) => {
               const isCenter = i === 1;
@@ -152,14 +152,14 @@ export default function ReviewsSection() {
                   initial="hidden"
                   whileInView="visible"
                   viewport={{ once: true }}
-                  className={`rounded-xl p-8 flex flex-col transition-all duration-300 ${
+                  className={`rounded-xl p-8 flex flex-col h-[300px] transition-all duration-300 ${
                     isCenter
                       ? "bg-white/[0.08] border-2 border-[#C9A84C]/60 scale-[1.03] shadow-[0_0_30px_rgba(201,168,76,0.20)]"
                       : "bg-white/5 border border-[#C9A84C]/30 hover:border-[#C9A84C]/60"
                   }`}
                 >
                   {/* Stars + Google icon */}
-                  <div className="flex items-center justify-between mb-5">
+                  <div className="flex items-center justify-between mb-5 flex-shrink-0">
                     <div className="flex gap-1">
                       {Array.from({ length: 5 }).map((_, si) => (
                         <Star
@@ -177,13 +177,15 @@ export default function ReviewsSection() {
                     </svg>
                   </div>
 
-                  {/* Review text */}
-                  <p className="text-slate-200 italic leading-relaxed mb-8 flex-1">
-                    &ldquo;{review.text}&rdquo;
-                  </p>
+                  {/* Review text — scrollable when overflows */}
+                  <div className="flex-1 overflow-y-auto mb-5 [scrollbar-width:thin] [scrollbar-color:#C9A84C33_transparent] [&::-webkit-scrollbar]:w-1 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-[#C9A84C]/25 [&::-webkit-scrollbar-thumb]:rounded-full">
+                    <p className="text-slate-200 italic leading-relaxed">
+                      &ldquo;{review.text}&rdquo;
+                    </p>
+                  </div>
 
-                  {/* Author row */}
-                  <div className="flex items-center gap-3">
+                  {/* Author row — always pinned to bottom */}
+                  <div className="flex items-center gap-3 flex-shrink-0">
                     <div className="w-10 h-10 rounded-full bg-[#C9A84C]/20 flex items-center justify-center flex-shrink-0">
                       <span className="text-[#C9A84C] text-xs font-bold">
                         {getInitials(review.author)}

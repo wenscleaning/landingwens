@@ -17,12 +17,12 @@ interface ServiceCard {
 }
 
 const services: ServiceCard[] = [
-  { key: "kitchen",  descKey: "kitchenDesc",  expandDescKey: "appartements_desc", image: "/images/services/image7.jpg",          beforeImage: "/images/services/sucio2.png", afterImage: "/images/services/image7.jpg" },
-  { key: "office",   descKey: "officeDesc",   expandDescKey: "bureaux_desc",       image: "/images/services/image.jpeg",          beforeImage: "/images/services/sucio3.jpeg", afterImage: "/images/services/image.jpeg" },
+  { key: "kitchen",  descKey: "kitchenDesc",  expandDescKey: "appartements_desc",  image: "/images/services/image7.jpg",          beforeImage: "/images/services/sucio2.png",   afterImage: "/images/services/image7.jpg" },
+  { key: "office",   descKey: "officeDesc",   expandDescKey: "bureaux_desc",       image: "/images/services/image.jpeg",          beforeImage: "/images/services/sucio3.jpeg",  afterImage: "/images/services/image.jpeg" },
   { key: "bathroom", descKey: "bathroomDesc", expandDescKey: "bail_desc",          image: "/images/services/construction.jpeg",   beforeImage: "/images/services/construction.jpg", afterImage: "/images/services/image6.jpg" },
-  { key: "sofa",     descKey: "sofaDesc",     expandDescKey: "evenements_desc",    image: "/images/services/office.jpg",          beforeImage: "/images/services/sucio5.jpeg", afterImage: "/images/services/office.jpg" },
-  { key: "window",   descKey: "windowDesc",   expandDescKey: "vitres_desc",        image: "/images/services/windows.jpg",         beforeImage: "/images/services/sucio1.jpeg", afterImage: "/images/services/windows.jpg" },
-  { key: "garden",   descKey: "gardenDesc",   expandDescKey: "conciergerie_desc",  image: "/images/services/concierge.jpg",       beforeImage: "/images/services/sucio4.jpeg", afterImage: "/images/services/concierge.jpg" },
+  { key: "sofa",     descKey: "sofaDesc",     expandDescKey: "evenements_desc",    image: "/images/services/office.jpg",          beforeImage: "/images/services/sucio5.jpeg",  afterImage: "/images/services/office.jpg" },
+  { key: "window",   descKey: "windowDesc",   expandDescKey: "vitres_desc",        image: "/images/services/windows.jpg",         beforeImage: "/images/services/sucio1.jpeg",  afterImage: "/images/services/windows.jpg" },
+  { key: "garden",   descKey: "gardenDesc",   expandDescKey: "conciergerie_desc",  image: "/images/services/concierge.jpg",       beforeImage: "/images/services/sucio4.jpeg",  afterImage: "/images/services/concierge.jpg" },
 ];
 
 const containerVariants = {
