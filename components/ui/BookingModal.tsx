@@ -18,12 +18,12 @@ import { useBooking } from "./BookingContext";
 const WHATSAPP_NUMBER = "41778102004";
 
 const services = [
-  { key: "office", image: "/images/services/image7.jpg" },
-  { key: "garden", image: "/images/services/image.jpeg" },
-  { key: "kitchen", image: "/images/services/construction.jpeg" },
-  { key: "window", image: "/images/services/office.jpg" },
-  { key: "bathroom", image: "/images/services/windows.jpg" },
-  { key: "sofa", image: "/images/services/concierge.jpg" },
+  { key: "kitchen",  image: "/images/services/image7.jpg" },
+  { key: "office",   image: "/images/services/image.jpeg" },
+  { key: "bathroom", image: "/images/services/construction.jpeg" },
+  { key: "sofa",     image: "/images/services/office.jpg" },
+  { key: "window",   image: "/images/services/windows.jpg" },
+  { key: "garden",   image: "/images/services/concierge.jpg" },
 ];
 
 const overlayVariants = {
