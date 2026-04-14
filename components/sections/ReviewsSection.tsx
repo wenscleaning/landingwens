@@ -87,9 +87,9 @@ export default function ReviewsSection() {
               <span className="text-white/50 text-sm font-medium uppercase tracking-widest">Google Reviews</span>
             </div>
             <h2 className="font-heading text-3xl sm:text-4xl font-extrabold text-white leading-tight">
-              {t("title")}{" "}
-              <span className="text-[#C9A84C]">{t("titleHighlight")}</span>{" "}
-              {t("titleEnd")}
+              {/* {t("title")}{" "}
+              <span className="text-[#C9A84C]">{t("titleHighlight")}</span>{" "} */}
+              {t("titleEnd").charAt(0).toUpperCase() + t("titleEnd").slice(1)}
             </h2>
           </motion.div>
 
