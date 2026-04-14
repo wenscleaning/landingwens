@@ -514,5 +514,12 @@
     "ratingLabel": "Note moyenne",
     "ratingValue": "4.9/5",
     "totalReviews": "Basé sur +50 avis vérifiés"
+  },
+  "SEO": {
+    "title": "WEN'S Cleaning Services | Nettoyage Professionnel à Genève",
+    "description": "WEN'S propose des services de nettoyage professionnels à domicile et en bureau à Genève. Plus de 50 000 clients satisfaits. Réservez dès aujourd'hui !",
+    "keywords": "services de nettoyage Genève, nettoyage maison, nettoyage bureau, femme de ménage Genève, nettoyage professionnel",
+    "ogTitle": "WEN'S Cleaning – Nettoyage Professionnel à Genève",
+    "ogDescription": "Plus de 50+ avis vérifiés de clients satisfaits à Genève et en Suisse. Réservez votre nettoyage professionnel dès aujourd'hui."
   }
 }
