@@ -517,5 +517,14 @@
     "keywords": "servicios de limpieza Ginebra, limpieza hogar, limpieza oficinas, limpiadores profesionales Ginebra, servicio de limpieza",
     "ogTitle": "WEN'S Cleaning – Limpieza Profesional en Ginebra",
     "ogDescription": "Más de 50.000 clientes confían en WEN'S en Ginebra. Reserva tu servicio de limpieza profesional hoy."
+  },
+  "CleaningProducts": {
+    "title": "Nuestros productos y métodos de limpieza",
+    "imageAlt": "Productos de limpieza ecológicos de Wen's",
+    "paragraph1": "En <brand>Wen's Cleaning Services</brand>, cada detalle importa. Seleccionamos cuidadosamente <strong>nuestros productos</strong> para garantizar resultados impecables, sin comprometer la <strong>salud</strong> ni <strong>el medioambiente</strong>.",
+    "paragraph2intro": "Trabajamos de <strong>dos maneras</strong>, según la preferencia de cada cliente:",
+    "bullet1": "con <strong>productos profesionales</strong> tradicionales, <strong>muy eficaces</strong>",
+    "bullet2": "o con <strong>soluciones ecológicas</strong> y respetuosas con <strong>el medioambiente</strong>",
+    "paragraph3": "Nuestro objetivo es ofrecerle una limpieza <strong>eficaz, segura</strong> y <strong>adaptada a cada necesidad</strong>."
   }
 }

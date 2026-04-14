@@ -517,5 +517,14 @@
     "keywords": "cleaning services Geneva, home cleaning, office cleaning, professional cleaners, maid service Geneva, end of lease cleaning",
     "ogTitle": "WEN'S Cleaning – Professional Cleaning in Geneva",
     "ogDescription": "Trusted by 50K+ clients in Geneva. Book your professional home or office cleaning with WEN'S today."
+  },
+  "CleaningProducts": {
+    "title": "Our Cleaning Products & Methods",
+    "imageAlt": "Wen's eco-friendly cleaning products",
+    "paragraph1": "At <brand>Wen's Cleaning Services</brand>, every detail matters. We carefully select <strong>our products</strong> to guarantee impeccable results, without compromising <strong>health</strong> or <strong>the environment</strong>.",
+    "paragraph2intro": "We work in <strong>two ways</strong>, depending on each client's preference:",
+    "bullet1": "with traditional <strong>professional products</strong>, which are <strong>highly effective</strong>",
+    "bullet2": "or with <strong>eco-friendly solutions</strong> that respect <strong>the environment</strong>",
+    "paragraph3": "Our goal is to offer you <strong>effective, safe</strong> cleaning that is <strong>adapted to every need</strong>."
   }
 }

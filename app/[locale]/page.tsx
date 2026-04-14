@@ -5,6 +5,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import HeroSection from "@/components/sections/HeroSection";
 import ServicesSection from "@/components/sections/ServicesSection";
+import CleaningProductsSection from "@/components/sections/CleaningProductsSection";
 import TrustedLogosSection from "@/components/sections/TrustedLogosSection";
 // import TrustedBySection from "@/components/sections/TrustedBySection";
 // import PricingSection from "@/components/sections/PricingSection";
@@ -29,6 +30,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <ServicesSection />
+        <CleaningProductsSection />
         <TrustedLogosSection />
         <ReviewsSection />
         {/* <PricingSection /> */}

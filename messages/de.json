@@ -517,5 +517,14 @@
     "keywords": "Reinigungsservice Genf, Hausreinigung, Büroreinigung, professionelle Reinigung Genf, Reinigungsdienst",
     "ogTitle": "WEN'S Cleaning – Professionelle Reinigung in Genf",
     "ogDescription": "Über 50.000 Kunden vertrauen WEN'S in Genf. Buchen Sie noch heute Ihre professionelle Reinigung."
+  },
+  "CleaningProducts": {
+    "title": "Unsere Reinigungsprodukte & Methoden",
+    "imageAlt": "Umweltfreundliche Reinigungsprodukte von Wen's",
+    "paragraph1": "Bei <brand>Wen's Cleaning Services</brand> zählt jedes Detail. Wir wählen <strong>unsere Produkte</strong> sorgfältig aus, um makellose Ergebnisse zu garantieren, ohne dabei <strong>Gesundheit</strong> oder <strong>Umwelt</strong> zu beeinträchtigen.",
+    "paragraph2intro": "Wir arbeiten auf <strong>zwei Arten</strong>, je nach Wunsch unserer Kunden:",
+    "bullet1": "mit traditionellen <strong>professionellen Reinigungsmitteln</strong>, die <strong>sehr wirksam</strong> sind",
+    "bullet2": "oder mit <strong>umweltfreundlichen Lösungen</strong>, die <strong>die Umwelt schonen</strong>",
+    "paragraph3": "Unser Ziel ist es, Ihnen eine <strong>effektive, sichere</strong> Reinigung zu bieten, die <strong>auf jeden Bedarf zugeschnitten</strong> ist."
   }
 }
