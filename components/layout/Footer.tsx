@@ -75,7 +75,7 @@ export default function Footer() {
 
             {/* Stars */}
             <div className="flex items-center gap-0.5 mb-2">
-              {[...Array(7)].map((_, i) => (
+              {[...Array(5)].map((_, i) => (
                 <span key={i} className="text-[#C9A84C] text-base">★</span>
               ))}
             </div>
