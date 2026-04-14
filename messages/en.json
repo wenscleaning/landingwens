@@ -510,5 +510,12 @@
     "ratingLabel": "Average rating",
     "ratingValue": "4.9/5",
     "totalReviews": "Based on 50+ verified reviews"
+  },
+  "SEO": {
+    "title": "WEN'S Cleaning Services | Professional Cleaning in Geneva",
+    "description": "WEN'S offers professional home and office cleaning services in Geneva. Trusted by 50K+ clients. Book your cleaning service today!",
+    "keywords": "cleaning services Geneva, home cleaning, office cleaning, professional cleaners, maid service Geneva, end of lease cleaning",
+    "ogTitle": "WEN'S Cleaning – Professional Cleaning in Geneva",
+    "ogDescription": "Trusted by 50K+ clients in Geneva. Book your professional home or office cleaning with WEN'S today."
   }
 }
