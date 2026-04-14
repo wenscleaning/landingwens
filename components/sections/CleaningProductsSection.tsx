@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Leaf } from "lucide-react";
+// import { Leaf } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 export default function CleaningProductsSection() {
