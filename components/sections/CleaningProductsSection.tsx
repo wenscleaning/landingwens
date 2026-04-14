@@ -77,7 +77,7 @@ export default function CleaningProductsSection() {
             {/* Bullet items */}
             <ul className="space-y-2 pl-1">
               <li className="flex items-start gap-2 text-slate-600 text-base">
-                <Leaf className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                {/* <Leaf className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" /> */}
                 <span>
                   {t.rich("bullet1", {
                     strong: (chunks) => (
@@ -87,7 +87,7 @@ export default function CleaningProductsSection() {
                 </span>
               </li>
               <li className="flex items-start gap-2 text-slate-600 text-base">
-                <Leaf className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" />
+                {/* <Leaf className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" /> */}
                 <span>
                   {t.rich("bullet2", {
                     strong: (chunks) => (
