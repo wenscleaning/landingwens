@@ -7,7 +7,7 @@ import { MessageCircle, X } from "lucide-react";
 interface FloatingActionButtonProps {
   whatsappNumber: string;
   whatsappMessage?: string;
-  onChatbotOpen?: () => void;
+  // onChatbotOpen?: () => void;
 }
 
 const WhatsAppIcon = () => (
@@ -19,7 +19,7 @@ const WhatsAppIcon = () => (
 export default function FloatingActionButton({
   whatsappNumber,
   whatsappMessage = "Hello! I'd like to book a cleaning service.",
-  onChatbotOpen,
+  // onChatbotOpen,
 }: FloatingActionButtonProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [showNotification, setShowNotification] = useState(true);
