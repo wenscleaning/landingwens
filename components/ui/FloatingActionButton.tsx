@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MessageCircle, X, Bot } from "lucide-react";
+import { MessageCircle, X } from "lucide-react";
 
 interface FloatingActionButtonProps {
   whatsappNumber: string;
