@@ -49,16 +49,16 @@ export default function FloatingActionButton({
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
   const subButtons = [
-    {
-      key: "chatbot",
-      label: "AI Assistant",
-      bg: "bg-[#1B396A]",
-      icon: <Bot className="w-6 h-6 text-white" />,
-      onClick: () => {
-        setIsOpen(false);
-        onChatbotOpen?.();
-      },
-    },
+    // {
+    //   key: "chatbot",
+    //   label: "AI Assistant",
+    //   bg: "bg-[#1B396A]",
+    //   icon: <Bot className="w-6 h-6 text-white" />,
+    //   onClick: () => {
+    //     setIsOpen(false);
+    //     onChatbotOpen?.();
+    //   },
+    // },
     {
       key: "whatsapp",
       label: "WhatsApp",
