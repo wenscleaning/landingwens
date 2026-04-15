@@ -46,7 +46,7 @@ export default function Home() {
       <FloatingActionButton
         whatsappNumber="1234567890"
         whatsappMessage="Hello! I'd like to book a cleaning service with WEN'S."
-        onChatbotOpen={() => setChatOpen(true)}
+        // onChatbotOpen={() => setChatOpen(true)}
       />
       <ChatbotModal isOpen={chatOpen} onClose={() => setChatOpen(false)} />
       <BookingModal />
